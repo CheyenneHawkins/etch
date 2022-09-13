@@ -1,0 +1,92 @@
+html {
+    background-color: red;
+    height: 100vh;
+    font-size: 52pt;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.6) inset;
+    padding: 0px;
+    margin: 0px;
+}
+.top {
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+}
+.input {
+width: 30px;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    /* padding-top: 50px; */
+
+
+}
+
+.screen {
+    height: 80vh;
+    width: 80vw;
+    border-radius: 15px;
+    background-color: rgb(183, 181, 181);
+    display: block;
+    justify-content: center;
+    box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.3) inset;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /* margin-top: 20px; */
+    overflow: hidden;
+}
+
+.screen > * {
+    /* display: block; */
+    /* border: black solid 1px; */
+    cursor: default;
+
+}
+
+.logo {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 24pt;
+
+
+}
+
+.pixelclass {
+    transition: background-color 10s;
+    transition-timing-function: ease-out;
+
+
+}
+
+
+
+.pixelclass:hover {
+    background-color: rgb(32, 32, 32);
+    transition: background-color .1s;
+}
+
+.pixelclass::after {
+    background-color: rgb(93, 89, 184);
+}
+
+.pixelclass:hover::after {
+    background-color: rgb(93, 89, 184);
+    transition: background-color .1s;
+}
+
+.pixelclasswrite {
+    background-color: rgb(0, 0, 0);
+    
+}
+
